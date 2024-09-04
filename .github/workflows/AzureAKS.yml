@@ -45,7 +45,7 @@ jobs:
         run: exit 1
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        run: terraform distroy -auto-approve
 
       - name: Terraform Output
         run: terraform output
